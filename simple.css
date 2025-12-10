@@ -15,7 +15,7 @@ body
   padding: 0;
   height: 100vh; /* altura completa de la ventana */
   width: 100vw;
-  /*background: url("/fondos/main_fondo1.svg") no-repeat center center;
+  /*background: url("./fondos/main_fondo1.svg") no-repeat center center;
   background-size: none;*/
 }
 
@@ -68,7 +68,7 @@ body
   flex-wrap: wrap;
   flex-direction: row-reverse;
 
-  background-image: url("/fondos/main_fondo1.svg");
+  background-image: url("./fondos/main_fondo1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,14 +116,14 @@ body
 
 .bottomsection-hello
 {
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
+  background-image: url("./fondos/main_fondo1.svg") no-repeat center center;
   background-size: cover;
 	/*background-color: #EA6B14;*/
 	font-size: 0;
 }
 .bottomsection-container
 {
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
+  background-image: url("./fondos/main_fondo1.svg") no-repeat center center;
   background-size: cover;
 	width: 73%;
 	margin-right: auto;
@@ -138,7 +138,7 @@ body
 }
 .bottomsection-contact
 {
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
+  background-image: url("./fondos/main_fondo1.svg") no-repeat center center;
   background-size: cover;
 	/*background-color: #EA6B14;*/
 	font-size: 0;
