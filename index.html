@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Sonia Clementino</title>
+	<link rel="stylesheet" type="text/css" href="./simple.css">
+	
+	<meta name="description" content="Sonia Clementino, Art Director &amp; Graphic Designer.">
+	<meta name="keywords" content="Sonia;sonia;Clementino;clementino;art;director;graphic;designer;">
+	<meta name="author" content="Sonia Clementino">
+</head>
+<body marginwidth="0" marginheight="0">
+	<div>
+		<div class="menu-bar-container">
+			<div class="signature-container">
+				<img src="/signature.png" height="50" alt="signature">
+			</div>
+			<div class="menu-container">
+				 <div class="menu-item-link dropdown">
+  <button class="dropbtn" data-target="#bio">Presentation ▾</button>
+  <div class="dropdown-content">
+    <a href="./docs/cv_sonia.pdf" target="_blank">📄 View Resume</a>
+    <a href="./docs/cv_sonia.pdf" download>📥 Download Resume</a>
+  </div>
+</div>
+				<div class="menu-item-separator"><a>|</a></div>
+				<div class="menu-item-link dropdown">
+  <button class="dropbtn" data-target="#portfolio">Portfolio ▾</button>
+  <div class="dropdown-content">
+    <a href="./docs/portfolio_sonia.pdf" target="_blank">🖼️ View Portfolio</a>
+    <a href="./docs/portfolio_sonia.pdf" download>📥 Download Portfolio</a>
+  </div>
+</div>
+				<div class="menu-item-separator"><a>|</a></div>
+				
+	<div class="menu-item-link dropdown">
+  <button class="dropbtn" data-target="#contact">Contact ▾</button>
+  <div class="dropdown-content">
+    <a href="https://api.whatsapp.com/send/?phone=5491156407808" target="_blank">📱 WhatsApp</a>
+    <a href="mailto:smclementino90@gmail.com">📧 E-mail</a>
+    <a href="https://www.linkedin.com/in/smclementino" target="_blank">🔗 LinkedIn</a>
+  </div>
+</div>
+			</div>
+		</div>
+		<div class="topsection">
+			<div class="topsection-img">
+	 			<img src="/imagenes/sonia.jpg" alt="portrait Sonia" height="300">			
+			</div>
+			<div class="topsection-title">
+				<h2>
+ 					Hola!
+					<br>
+					I'm Sonia!
+				</h2>	
+			</div>
+		</div>
+		<div class="rhombo-container">
+			
+		</div>
+		<div class="bottomsection-hello">
+			<div class="bottomsection-container">
+				<a class="anchor" id="bio"></a>
+				<p>
+					Born and raised in <b>Buenos Aires</b>, <b> Argentina</b>. I went to a graphic design school and I graduated with a Bachelor's Degree in Advertising.
+					I have 10 years of professional experience in <b> Advertising </b> and <b>Graphic Design</b>.
+					 Over the past 4 years I have specialized in <b> Production Design</b>.
+				<br>
+					I am passionate about aesthetics and I believe that communication is key to a successful business.
+					I speak <b>English</b>, <b>Spanish</b> and <b>Portuguese</b>.
+				<br>
+					I am <b>super</b> friendly and easy-going, so if you need design help or just want to say "Hola", don't hesitate to contact me!
+				<br>
+					You can take a look at <a href="./docs/cv_sonia.pdf" target="_blank">my resume</a> for more information.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div><a class="anchor" id="portfolio"></a>
+		<div class="topsection">
+			<div class="topsection-img">
+	 			<img src="/imagenes/work.jpg" alt="camera and computer" height="300">			
+			</div>
+			<div class="topsection-title">
+				<h2>
+ 					Portfolio
+				</h2>	
+			</div>
+		</div>
+		<div class="rhombo-container">
+			
+		</div>
+		<div class="bottomsection-work">
+			<div class="bottomsection-container">
+				<p>
+					I help businesses master their communication and image in order to reach more customers and improve sales.
+					I edit photos and videos to create new and original designs representing the spirit of the brand.
+					You can access my <b>portfolio</b> by clicking <a href="./docs/portfolio_sonia.pdf" target="_blank">this link</a>.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div><a class="anchor" id="contact"></a>
+		<div class="topsection">
+			<div class="topsection-img">
+	 			<img src="/imagenes/contacto.jpg" alt="computadora" height="300">			
+			</div>
+			<div class="topsection-title">
+				<h2>
+ 					Contact
+				</h2>	
+			</div>
+		</div>
+		<div class="rhombo-container">
+			
+		</div>
+		<div class="bottomsection-contact">
+			<div class="bottomsection-container">
+				<p style="text-align: left">
+				I speak <b>English</b>, <b>Spanish</b> and <b>Portuguese</b>.
+				<br>
+				<b>Phone (Calls &amp; WhatsApp)</b>: <a href= "https://api.whatsapp.com/send/?phone=5491156407808&text&type=phone_number&app_absent=0" target="_blank">+54 9 11 5640 7808 </a>
+				<br>
+				<b>E-mail</b>: <a href="mailto:sm.clementino90@gmail.com">sm.clementino90@gmail.com</a>
+				<br>
+				<b>LinkedIn</b>: <a href="https://www.linkedin.com/in/smclementino" target="_blank">Sonia Clementino</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+<script>document.addEventListener('DOMContentLoaded', function() {
+  const dropdowns = document.querySelectorAll('.dropdown');
+  let hoverTimeout;
+  let closeTimeout;
+
+  dropdowns.forEach(dropdown => {
+    const button = dropdown.querySelector('.dropbtn');
+    const content = dropdown.querySelector('.dropdown-content');
+
+
+    // ABRIR/CERRAR DROPDOWN AL CLICK EN EL BOTÓN
+    button.addEventListener('click', function(e) {
+      e.stopPropagation();
+      // Cerrar otros dropdowns
+      dropdowns.forEach(d => {
+        if (d !== dropdown) d.classList.remove('open');
+      });
+	   // Smooth scroll al anchor si queremos
+  const targetId = this.dataset.target; // ejemplo: data-target="#bio"
+  if (targetId) {
+    const target = document.querySelector(targetId);
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  }
+      // Alternar el actual
+      dropdown.classList.toggle('open');
+    });
+
+    // ABRIR AL HACER HOVER
+    dropdown.addEventListener('mouseenter', function() {
+      clearTimeout(closeTimeout);
+      clearTimeout(hoverTimeout);
+      hoverTimeout = setTimeout(() => {
+        dropdown.classList.add('open');
+        dropdowns.forEach(d => { if (d !== dropdown) d.classList.remove('open'); });
+      }, 150);
+    });
+
+    // CERRAR AL SALIR
+    dropdown.addEventListener('mouseleave', function(e) {
+      clearTimeout(hoverTimeout);
+      const isMovingToDropdown = content.contains(e.relatedTarget);
+      if (!isMovingToDropdown) {
+        closeTimeout = setTimeout(() => {
+          dropdown.classList.remove('open');
+        }, 300);
+      }
+    });
+
+    // MANTENER ABIERTO SI EL CURSOR ESTÁ SOBRE EL CONTENIDO
+    content.addEventListener('mouseenter', function() {
+      clearTimeout(closeTimeout);
+      dropdown.classList.add('open');
+    });
+
+    content.addEventListener('mouseleave', function() {
+      closeTimeout = setTimeout(() => {
+        dropdown.classList.remove('open');
+      }, 200);
+    });
+  });
+
+  // CERRAR TODOS AL CLICK FUERA
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.dropdown')) {
+      dropdowns.forEach(d => d.classList.remove('open'));
+    }
+  });
+
+  // CERRAR AL SCROLL
+  window.addEventListener('scroll', function() {
+    dropdowns.forEach(d => d.classList.remove('open'));
+  });
+
+  // SMOOTH SCROLL PARA ANCHORS INTERNOS
+  document.querySelectorAll('.dropdown-content a[href^="#"], a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href && href.startsWith('#') && href.length > 1) {
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      }
+      // Cerrar dropdowns al navegar
+      dropdowns.forEach(d => d.classList.remove('open'));
+    });
+  });
+});</script>
+
+<script defer="defer" type="text/javascript" src="./simple.js"></script></body></html>
