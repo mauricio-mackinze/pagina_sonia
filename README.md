@@ -1,5 +1,5 @@
 ## Context
-Redesing and improvement of the website soniaclementino.com
+Redesign and improvement of the website soniaclementino.com
 
 ## Original problems
  - Broken links
