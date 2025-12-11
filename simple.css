@@ -69,7 +69,7 @@ body
   flex-wrap: wrap;
   flex-direction: row-reverse;
 
-  background-image: url("/fondos/main_fondo1.svg");
+  background-image: url("./fondos/main_fondo1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@ body
 
 .bottomsection-container
 {
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
+  background-image: url("./fondos/main_fondo1.svg") no-repeat center center;
   background-size: cover;
 	width: 73%;
 	margin-right: auto;
@@ -118,7 +118,7 @@ body
 .bottomsection-hello,
 .bottomsection-work,
 .bottomsection-contact {
-  background-image: url("/fondos/main_fondo1.svg");
+  background-image: url("./fondos/main_fondo1.svg");
   background-size: cover;
   background-position: center;
 }
