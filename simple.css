@@ -3,14 +3,24 @@ html
 	scroll-behavior: smooth;
 	height: 100%;	
 }
-
-*
-{ 
-	font-family: 'DIN Alternate', sans-serif;
+@import url('fonts.googleapis.com');
+@font-face {
+  font-family: 'Gooper';
+  src: url('./fonts/Gooper-Regular.woff2') format('woff2');
+  font-weight: normal; /* Ajusta según el archivo que tengas */
+  font-style: normal; /* Ajusta si es itálica */}
+@font-face {
+  font-family: 'DIN Alternate';
+  src: url('./fonts/DINAlternate-Bold.woff2') format('woff2');
+  font-weight: normal; /* Ajusta según el archivo que tengas */
+  font-style: bold; /* Ajusta si es itálica */
 }
-
 body
 {
+  font-family: 'DIN Alternate';
+	src: url('./fonts/DINAlternate-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: bold;
    margin: 0;
   padding: 0;
   height: 100vh; /* altura completa de la ventana */
@@ -19,12 +29,7 @@ body
   background-size: none;*/
 }
 
-@font-face {
-	font-family: 'DIN Alternate';
-	src: url('./fonts/DINAlternate-Bold.woff2') format('woff2');
-	font-weight: bold;
-	font-style: normal;
-  }
+
 .menu-bar-container
 {
 	width: 100%;
@@ -49,6 +54,7 @@ body
   display: flex;
   align-items: center;
   gap: 10px;
+  mix-blend-mode: difference;
 }
 
 .menu-container {
@@ -68,7 +74,7 @@ body
   flex-wrap: wrap;
   flex-direction: row-reverse;
 
-  background-image: url("/fondos/main_fondo1.svg");
+  background-image: url("./fondos/main_fondo1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +82,6 @@ body
 
 .topsection-img
 {
-	float: right;
 	width: 50%;
 	background-color: inherit;
 	align-content: center;
@@ -94,8 +99,7 @@ body
 
 .topsection-title
 {
-	float: left;
-	width: 50%;
+  width: 50%;
 	background-color: inherit;
 	align-content: center;
 	flex: 1 0 600px;
@@ -103,45 +107,29 @@ body
 
 .topsection-title > h2
 {
+  font-family: 'Gooper';
+  src: url("./fonts/Gooper-ThinItalic.woff2");
+	font-weight: bold;
+	font-style: normal;
   color: #ea6b14;
   font-size: 70px;
   text-align: center;
 }
-/*.rhombo-container
-{
-	font-size: 0;
-	text-align: center;
-	z-index: 2;
-	transform:translateY(50%);*/
 
-.bottomsection-hello
-{
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
-  background-size: cover;
-	/*background-color: #EA6B14;*/
-	font-size: 0;
-}
 .bottomsection-container
 {
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
+  background-image: url("./fondos/main_fondo1.svg") no-repeat center center;
   background-size: cover;
 	width: 73%;
 	margin-right: auto;
 	margin-left: auto;
 }
-.bottomsection-work
-{
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
+.bottomsection-hello,
+.bottomsection-work,
+.bottomsection-contact {
+  background-image: url("./fondos/main_fondo1.svg");
   background-size: cover;
-	/*background-color: #EA6B14;*/
-	font-size: 0;
-}
-.bottomsection-contact
-{
-  background-image: url("/fondos/main_fondo1.svg") no-repeat center center;
-  background-size: cover;
-	/*background-color: #EA6B14;*/
-	font-size: 0;
+  background-position: center;
 }
 p
 {
@@ -158,59 +146,6 @@ a
   color: #ea6b14;
 }
 
-
-/*
-a.hola-link:visited
-{
-  color: #A20EC6;
-}
-*/
-/*
-a.hola-link:hover
-{
-  color: #A20EC6;
-}
-*/
-/*
-a.hola-link:active
-{
-  color: #A20EC6;
-}
-/*
-a.work-link:visited
-{
-  color: #3DF490;
-}
-*/
-/*
-a.work-link:hover
-{
-  color: #3DF490;
-}
-*/
-/*
-a.work-link:active
-{
-  color: #3DF490;
-}
-/*
-a.contact-link:visited
-{
-  color: #FF7300;
-}
-*/
-/*
-a.contact-link:hover
-{
-  color: #FF7300;
-}
-*/
-/*
-a.contact-link:active
-{
-  color: #FF7300;
-}
-*/
 a.anchor
 {
     display: block;
@@ -314,7 +249,7 @@ a.anchor
 
 /* ENLACES DENTRO DEL DROPDOWN */
 .dropdown-content a {
-  font-family: 'DIN Alternate', sans-serif !important;
+  font-family: 'DIN Alternate', sans-serif;
   font-weight: bold !important;
   padding: 12px 18px;
   display: block;
