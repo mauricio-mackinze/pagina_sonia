@@ -99,7 +99,8 @@ body
 
 .topsection-title
 {
-  width: 50%;
+	float: left;
+	width: 50%;
 	background-color: inherit;
 	align-content: center;
 	flex: 1 0 600px;
